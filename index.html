@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,800" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <title>Nick Kinderman</title>
+    <!--
+    Portfolio Site for Nick Kinderman
+    -->
+</head>
+  <body>
+
+    <!-- Start Navbar -->
+    <div id="navbar">
+      <div id="desktop-nav" class="row justify-between align-center">
+        <div id="logo">
+          <a href="#home" class="not-active"><img src="images/logo.png" alt="" style="width: 100px"></a>
+        </div>
+        <div id="mobile-nav">
+          <div id="hamburger">
+            <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div id="desktop-menu" class="single-page-nav">
+          <a href="#home" class="desktop-link"><span>Home</span></a>
+          <a href="#about" class="desktop-link"><span>About</span></a>
+          <a href="#projects" class="desktop-link"><span>Projects</span></a>
+          <a href="#contact" class="desktop-link"><span id="last">Contact</span></a>
+        </div>
+      </div>
+      <div id="toggle">
+        <div id="mobile-menu" class="single-page-nav">
+          <div><a href="#home">Home</a></div>
+          <div><a href="#about">About</a></div>
+          <div><a href="#projects">Projects</a></div>
+          <div><a href="#contact">Contact</a></div>
+        </div>
+      </div>
+    </div>
+    <!-- End Navbar -->
+
+    <!-- Start Home Section -->
+    <section id="home">
+      <div class="container" style="height: 100%">
+        <div class="row justify-center align-center">
+          <div class="column-fill">
+            <div id="home-box">
+              <h1 id="home-header">Greetings, <br>my name is <br> Nick Kinderman.</h1>
+              <h3 id="home-text">Recent graduate and aspiring front-end developer</h3>
+              <div>
+                <a href="#about" id="about-me">About Me <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Home Section -->
+
+    <!-- Start About Section -->
+    <section id="about" class="container">
+      <div class="row justify-start title-box">
+        <h2>About Me</h2>
+      </div>
+      <div class="row justify-between">
+        <div class="column-fill">
+          <div class="about-box">
+            <img src="images/cover.png" alt="profile pic" >
+          </div>
+        </div>
+        <div class="column-fill">
+          <div class="about-box">
+            <p>I am an affable fellow who delights in crafting things, be it with food, art, carpentry, or code. I currently work in healthcare and I am actively pursuing a career change into software development. I am fully open to relocate and wish to experience other places in the country.</p>
+            <h4>My Education</h4>
+            <p>In December 2017, I graduated with high honors from the University of Southern Mississippi with a Bachelors of Computer Science. In my free time, I consume development tutorials and hammer away on personal projects to gain working knowledge of the tools and technology in the industry.</p>
+            <h4>My Career</h4>
+            <p>I possess a 20+ year combined background in the United States Air Force and in the healthcare arena. The professional experience and soft skills gained in these environments will bolster any development team that I become a part of.</p>
+            <span><a href="files/Nick_Kinderman_Resume.pdf" target="external">Resume <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- Start Projects Section -->
+    <section id="projects" class="container">
+      <div class="justify-start title-box">
+        <h2>My Projects</h2>
+      </div>
+      <!-- Begin Row 1 -->
+      <div class="row align-center">
+        <!-- 1 -->
+        <div class="column-fill">
+          <div class="project">
+            <div class="project-box ">
+              <img src="images/paddleRacer.jpg" style="width: 100%">
+              <div class="project-text">
+                <h4>PaddleRacer</h4>
+                <p><strong>Date: </strong> 8/17 -10/17</p>
+                <p><strong>Tech: </strong> MEAN, Bootstrap, HTML, CSS, JS</p>
+                <p>PaddleRacer my first MEAN stack application. The app is an event listing & registration demo application for kayak/canoe/SUP races.</p>
+                <p class="glass">
+                  <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+                </p>
+              </div>
+            </div>
+            <div class="middle">
+              <div class="fade-buttons">
+                <div>
+                  <a href="https://paddleracer.herokuapp.com/" target="_blank" ><i class="fa fa-external-link" aria-hidden="true"></i> Visit</a>
+                </div>
+                <div>
+                  <a href="https://github.com/nKinderman/paddleRacer" target="_blank" ><i class="fa fa-github" aria-hidden="true"></i> View Code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="column-fill">
+          <div class="project">
+            <div class="project-box ">
+              <img src="images/wtf.jpg" style="width: 100%">
+              <div class="project-text">
+                <h4>What The Fish?!</h4>
+                <p><strong>Date: </strong> 12/2017</p>
+                <p><strong>Tech: </strong> HTML, CSS, JS, SASS, Gulp</p>
+                <p>What The Fish?! is a guessing game that demonstrates both knowledge of JS and the manipulation of the DOM.</p>
+                <p class="glass">
+                  <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+                </p><br>
+              </div>
+            </div>
+            <div class="middle">
+              <div class="fade-buttons">
+                <div>
+                  <a href="http://www.nickkinderman.com/wtf/" class="button" target="external"><i class="fa fa-external-link" aria-hidden="true"></i> Visit</a>
+                </div>
+                <div>
+                  <a href="https://github.com/nKinderman/WhatTheFish" class="button" target="external"><i class="fa fa-github" aria-hidden="true"></i> View Code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="column-fill">
+          <div class="project">
+            <div class="project-box ">
+              <img src="images/konquer.jpg" style="width: 100%">
+              <div class="project-text">
+                <h4>Konquer</h4>
+                <p><strong>Date: </strong> 11/2017</p>
+                <p><strong>Tech: </strong> HTML, CSS, JS, JQuery, SASS, Gulp</p>
+                <p>This purpose built website is an imitation of a Bootstrap template without using a front-end framework.</p>
+                <p class="glass">
+                  <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+                </p><br>
+              </div>
+            </div>
+            <div class="middle">
+              <div class="fade-buttons">
+                <div>
+                  <a href="http://www.nickkinderman.com/konquer/" class="button" target="external"><i class="fa fa-external-link" aria-hidden="true"></i> Visit</a>
+                </div>
+                <div>
+                  <a href="https://github.com/nKinderman/konquer" class="button" target="external"><i class="fa fa-github" aria-hidden="true"></i> View Code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Row 1 -->
+      <!-- Begin Row 2 -->
+      <div class="row align-center">
+      <!-- 1 -->
+      <div class="column-fill">
+        <div class="project">
+          <div class="project-box ">
+            <img src="images/portfolio.png" style="width: 100%">
+            <div class="project-text">
+              <h4>Portfolio Site</h4>
+              <p><strong>Date: </strong> 12/2017 - 1/2018</p>
+              <p><strong>Tech: </strong> HTML, CSS, JS, Jquery, SASS, Gulp</p>
+              <p>My personal portfolio is an originally developed & responsive website displaying some of my front-end abilities.</p>
+              <p class="glass">
+                <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+              </p><br>
+            </div>
+          </div>
+          <div class="middle">
+            <div class="fade-buttons">
+              <div>
+                <a href="#projects" class="button"><i class="fa fa-github" aria-hidden="true"></i> View Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 2 -->
+        <div class="column-fill">
+          <div class="project">
+            <div class="project-box ">
+              <img src="images/bob.jpg" style="width: 100%">
+              <div class="project-text">
+                <h4>Battle on the Bayou</h4>
+                <p><strong>Date: </strong> 12/2016</p>
+                <p><strong>Tech: </strong> Bootstrap, HTML, CSS, JS</p>
+                <p>Battle on the Bayou is my first foray with using Bootstrap. The site is for a paddle sports race.</p>
+                <p class="glass">
+                  <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+                </p><br>
+              </div>
+            </div>
+            <div class="middle">
+              <div class="fade-buttons">
+                <div>
+                  <a href="http://battleonthebayou.com" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i> Visit</a>
+                </div>
+                <div>
+                  <a href="https://github.com/nKinderman/battleonthebayou" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> View Code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="column-fill">
+          <div class="project">
+            <div class="project-box ">
+              <img src="images/slider.jpg" style="width: 100%">
+              <div class="project-text">
+                <h4>C++ Silder Puzzle Agent</h4>
+                <p><strong>Date: </strong> 11/2017</p>
+                <p><strong>Tech: </strong> C++</p>
+                <p>This program solves an 8-tile slider puzzle utilizing breadth-first, depth-first, A* w/ misplaced tiles, and A* w/ Manhattan distance search methods.</p>
+                <p class="glass">
+                  <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+                </p>
+              </div>
+            </div>
+            <div class="middle">
+              <div class="fade-buttons">
+                <div>
+                  <a href="https://github.com/nKinderman/sliderPuzzle-agent" class="button" target="external"><i class="fa fa-github" aria-hidden="true"></i> View Code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Row 2 -->
+      <!-- Begin Row 3 -->
+      <div class="row justify-center">
+        <!-- Solo project row-->
+        <div class="column-fill-one-third">
+          <div class="project">
+            <div class="project-box ">
+              <img src="images/maze.jpg" style="width: 100%">
+              <div class="project-text">
+                <h4>C++ Maze Agent</h4>
+                <p><strong>Date: </strong> 10/2017</p>
+                <p><strong>Tech: </strong> C++</p>
+                <p>This program solves a 10x10 grid maze utilizing breadth-first and depth-first search methods.</p>
+                <p class="glass">
+                  <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+                </p>
+              </div>
+            </div>
+            <div class="middle">
+              <div class="fade-buttons">
+                <div>
+                  <a href="https://github.com/nKinderman/maze-Agent" class="button" target="external"><i class="fa fa-github" aria-hidden="true"></i> View Code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- Start Contact Section -->
+    <section id="contact">
+      <div class="row justify-center align-center">
+        <div id="contact-box">
+          <h2>Get in Touch</h2>
+          <div><a href="mailto:nick.kinderman@gmail.com?subject=Mail from Our Site"><i class="fa fa-envelope-o fa-fw"></i> Send An Email</a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+
+    <!-- Start Footer -->
+    <footer id="footer">
+      <div class="container">
+        <div class="row justify-center align-center">
+          <a href="https://github.com/nKinderman" id="marbles" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/n-kinderman/" id="marbles" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+        </div>
+        <div class="row justify-center align-center">
+          <div id="footer-text">Made by me 2018</div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+  </body>
+
+  <!-- HTML document is loaded. DOM is ready. -->
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery.singlePageNav.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</html>
