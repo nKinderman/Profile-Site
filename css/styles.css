@@ -6,6 +6,9 @@ html, body {
   color: #6c6c6c;
   box-sizing: border-box; }
 
+body {
+  -webkit-text-size-adjust: none; }
+
 *, *:before, *:after {
   box-sizing: inherit; }
 
@@ -111,15 +114,15 @@ h1, h2, h3, h4, h5, h6 {
 
 #home-box {
   position: relative;
-  top: -140px; }
+  top: -150px;
+  font-size: 1.15em; }
   #home-box div {
     margin: 40px 0px; }
     #home-box div a {
       border-radius: 5px;
-      font-size: 1.25em;
       font-weight: 400;
       margin: 20px 0px;
-      padding: 10px 25px;
+      padding: 10px 20px;
       transition: 500ms;
       background: #84CE44;
       color: #ececec;
@@ -131,7 +134,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #home-header {
   color: #4484ce;
-  font-size: 2.75em;
+  font-size: 9vw;
   text-transform: uppercase;
   line-height: 1.25em;
   letter-spacing: 5px;
@@ -139,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #home-text {
   color: #6c6c6c;
-  font-size: 1.50em; }
+  font-size: 1.0em; }
 
 #home-box {
   display: none; }
@@ -156,19 +159,18 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.15em; }
   #about a {
     float: right;
-    font-size: 1.25em;
+    border-radius: 5px;
+    font-weight: 400;
+    margin: 20px 0px;
+    padding: 10px 20px;
+    transition: 500ms;
     background: #4484ce;
     color: white;
-    padding: 10px 10px;
-    border: 2px solid #4484ce;
-    border-radius: 10px;
-    transition: 500ms; }
+    border: 2px solid #4484ce; }
   #about a:hover {
     background: white;
     color: #4484ce;
-    padding: 10px 10px;
-    border: 2px solid #4484ce;
-    border-radius: 10px; }
+    border: 2px solid #4484ce; }
 
 .about-box {
   width: 98%;
@@ -226,12 +228,15 @@ h1, h2, h3, h4, h5, h6 {
   margin: 40px 0px;
   text-align: center; }
   .fade-buttons div a {
+    border-radius: 5px;
+    font-weight: 400;
+    margin: 20px 0px;
+    padding: 10px 20px;
+    transition: 500ms;
     color: white;
     background: #84CE44;
     padding: 15px;
-    border-radius: 5px;
-    border: 2px solid #84CE44;
-    transition: 500ms; }
+    border: 2px solid #84CE44; }
   .fade-buttons div a:hover {
     color: #6c6c6c;
     background: white; }
@@ -248,20 +253,19 @@ h1, h2, h3, h4, h5, h6 {
 #contact {
   margin-top: 60px;
   background: #4484ce;
-  height: 200px; }
+  height: 200px;
+  font-size: 1.15em; }
   #contact h2 {
     color: white;
-    font-size: 2.0em;
     text-align: center;
     letter-spacing: 2px; }
   #contact div {
     margin: 40px 0px; }
     #contact div a {
       border-radius: 5px;
-      font-size: 1.25em;
       font-weight: 400;
       margin: 20px 0px;
-      padding: 10px 25px;
+      padding: 10px 20px;
       transition: 500ms;
       background: #303030;
       color: #ececec;
@@ -326,4 +330,10 @@ h1, h2, h3, h4, h5, h6 {
   #mobile-menu {
     display: none; }
   #desktop-menu {
-    display: block; } }
+    display: block; }
+  #home-box {
+    font-size: 1.15em; }
+  #home-header {
+    font-size: 2.5em; }
+  #home-text {
+    font-size: 1.25em; } }
